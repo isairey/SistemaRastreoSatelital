@@ -45,7 +45,7 @@ El sistema permite visualizar la posición de los vehículos en tiempo real, alm
 
 ## 📂 Estructura del proyecto
 
-
+```
 rastreo-vehiculos/
 │
 ├── 📁 app/
@@ -64,7 +64,7 @@ rastreo-vehiculos/
 ├── 📁 views/
 ├── config.php
 └── README.md
-
+```
 
 ---
 
@@ -82,45 +82,73 @@ rastreo-vehiculos/
 1. Clonar el repositorio:
 ```bash
 git clone https://github.com/tuusuario/rastreo-vehiculos.git
+```
 Acceder al proyecto:
+```
 cd rastreo-vehiculos
+```
 Configurar la base de datos:
+```
 Crear base de datos en PostgreSQL
+```
 Ejecutar scripts:
+```
 \i database/schema.sql
 \i database/procedures.sql
 Configurar conexión en config.php
+```
 Levantar servidor:
+```
 php -S localhost:8000
-▶️ Uso
-Iniciar sesión en el sistema
-Registrar vehículos
-Visualizar ubicaciones en tiempo real
-Consultar rutas históricas
-Gestionar alertas
-💡 Funcionamiento
+```
+---
+
+## ▶️ Uso
+
+- Iniciar sesión en el sistema
+- Registrar vehículos
+- Visualizar ubicaciones en tiempo real
+- Consultar rutas históricas
+- Gestionar alertas
+
+---
+
+## 💡 Funcionamiento
 
 El sistema recibe datos de ubicación desde dispositivos GPS instalados en los vehículos, los cuales son:
 
-📡 Enviados al servidor
-💾 Almacenados en PostgreSQL
-⚙️ Procesados mediante funciones en PL/pgSQL
-🗺️ Visualizados en la interfaz web
-🎨 Interfaz
+-📡 Enviados al servidor
+-💾 Almacenados en PostgreSQL
+-⚙️ Procesados mediante funciones en PL/pgSQL
+-🗺️ Visualizados en la interfaz web
+
+---
+
+## 🎨 Interfaz
+
 Panel de control intuitivo
 Mapa interactivo
 Visualización en tiempo real
 Diseño adaptable
-📈 Mejoras futuras
-📱 Aplicación móvil
-🔔 Notificaciones en tiempo real
-📊 Dashboard con analítica avanzada
-☁️ Despliegue en la nube
-🤖 Predicción de rutas
-⚠️ Nota
+
+---
+
+## 📈 Mejoras futuras
+
+-📱 Aplicación móvil
+-🔔 Notificaciones en tiempo real
+-📊 Dashboard con analítica avanzada
+-☁️ Despliegue en la nube
+-🤖 Predicción de rutas
+
+---
+
+## ⚠️ Nota
 
 Este sistema puede integrarse con hardware GPS real o funcionar con datos simulados para pruebas.
 
-👨‍💻 Autor
+---
 
-Desarrollado por Isai Reyes Peña
+## 👨‍💻 Autor
+
+Desarrollado por **Isai Reyes Peña**
