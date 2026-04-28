@@ -81,11 +81,11 @@ rastreo-vehiculos/
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tuusuario/rastreo-vehiculos.git
+git clone https://github.com/isairey/SistemaRastreoSatelital.git
 ```
 Acceder al proyecto:
 ```
-cd rastreo-vehiculos
+cd SistemaRastreoSatelital
 ```
 Configurar la base de datos:
 ```
